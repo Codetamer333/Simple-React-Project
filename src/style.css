@@ -1,0 +1,210 @@
+* {
+   box-sizing: border-box; 
+}
+
+body {
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color: #23252C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.hero {
+    background-image:url('../public/images/Rectangle\ 90.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 634px;
+    height:634px;
+    margin: 0; 
+    padding: 0; 
+}
+
+.maincontainer{
+    background-color: #1A1B21;
+    width:634px;
+    height:734px;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+}
+
+.name {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 20px 0;
+    padding: 0%;
+}
+
+.website {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F5F5F5;
+    line-height: 60px;
+    margin:0;
+    padding: 0;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    color: #F3BF99;
+    line-height: 32px;
+    margin:0;
+    padding: 0;
+}
+
+
+.buttonscontainer { 
+    margin:0;
+    padding:0; 
+    width: inherit;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.emailbut{
+    width: 230px;
+    height: 68px;
+    border-radius: 8px;
+    background-image: url(../public/images/email.png);
+    background-repeat: no-repeat;
+    background-position: 12%;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+.linkedinbut{
+    width: 230px;
+    height: 68px;
+    margin-left: 40px;
+    border-radius: 8px;
+    background-color: #5093E2;
+    background-image: url(../public/images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.aboutcontainer {
+    width: inherit;
+    height: 497px;
+
+}
+.about {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px; 
+    color:white;
+    margin-left:40px;
+    padding:0;
+    margin-bottom:5px;
+}
+
+.aboutp {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    color:white;
+    margin-left:40px;
+}
+
+.interests{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color:white;
+    margin-left:40px;
+    padding:0;
+    margin-bottom:5px;
+}
+
+.interestsp{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    color:white;
+    margin-left:40px;
+}
+
+.footer {
+    background-color: #161619; 
+    width:634px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitterbut {
+    width:50px;
+    height:50px;
+    background-image: url(.././public/images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    margin-left: 20px;
+    border-style:none;
+
+}
+.facebookbut {
+    width:50px;
+    height:50px;
+    background-image: url(.././public/images/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    margin-left: 20px;
+    border-style:none;
+
+}
+.instabut {
+    width:50px;
+    height:50px;
+    background-image: url(.././public/images/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    margin-left: 20px;
+    background-size: cover;
+    border-style:none;
+}
+.githubbut {
+    width:50px;
+    height:50px;
+    background-image: url(.././public/images/github.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    margin-left: 20px;
+    background-size: cover;
+    border-style:none;
+}
